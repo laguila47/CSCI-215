@@ -3,7 +3,7 @@
     header('Access-Control-Allow-Origin: *');
     header('Access-Control-Allow-Methods: POST');
     header('Access-Control-Allow-Headers: Origin, Content-Type, Accept, Authorization, X-Request-With');
-header('Content-Type: application/json');
+    header('Content-Type: application/json');
     
     $paintColor = $_POST["paintColor"];
     $paintQuantity = $_POST["paintQuantity"];
